@@ -16,21 +16,23 @@ conda activate enso_windperturb_thermocline
 ```
 data/
 figures/
-main.py
-preprocessing.py
+data_preprocessing.ipynb
+utils.py
+plotting.ipynb
 environment.yml
 ```
 
-Large NetCDF and pickle files in `./data` are not included in the repository. Contact the author if needed.
+Large files (>1GB, NetCDF and otherwise) in `./data` are not included in the repository. Contact the author if needed.
 
 ## Data Sources
 
 * CMIP6 HighResMIP simulations (CEDA Archive)
   [https://hrcm.ceda.ac.uk/research/cmip6-highresmip/](https://hrcm.ceda.ac.uk/research/cmip6-highresmip/)
 * NPD eORCA025 simulations (NOC/MSM)
-* ERA5, JRA55-do (Copernicus Climate Data Store)
+* JRA55-do (Copernicus Climate Data Store)
 * ORAS5 ocean reanalysis
 * EN4 observational dataset
+* NOAA Climate Prediction Centre Oceanic Niño Index v2 
 
 ## Workflow
 
