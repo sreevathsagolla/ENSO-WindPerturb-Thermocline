@@ -784,7 +784,7 @@ def plot_anomaly_map_panel(kind, exps, fig_titles, change_df, ctrl_exp, panel_in
         # panel letters run a, b, c... row by row; panel_index shifts the starting
         # letter so panel B picks up numbering right where panel A left off
         panel_letter = chr(ord('a') + panel_index * n_rows + row)
-        ax.set_title(f'{panel_letter}) ' + fig_titles[exp], fontsize=20, pad=12)
+        ax.set_title(f'{panel_letter}) ' + fig_titles[exp], fontsize=18, pad=12)
 
         # build the Nino 3/3.4/4 text annotation, adding the change relative to
         # the control experiment on every row except the control's own row
@@ -800,7 +800,7 @@ def plot_anomaly_map_panel(kind, exps, fig_titles, change_df, ctrl_exp, panel_in
                 line += f' (∆ = {delta:+.2f})'
             text_lines.append(line)
         text = '\n'.join(text_lines)
-        ax.text(0.01, 0.975, text, transform=ax.transAxes, ha='left', va='top', fontsize=20, color='black',
+        ax.text(0.01, 0.975, text, transform=ax.transAxes, ha='left', va='top', fontsize=18, color='black',
                 bbox=dict(facecolor='white', edgecolor='black', alpha=0.85, boxstyle='round,pad=0.25'))
 
         format_axis(ax, 'map', row, n_rows)
@@ -863,7 +863,7 @@ def plot_zonal_panel(exps, fig_titles, panel_index, n_rows, levels, cbar_kwargs,
 
         # same row-major lettering scheme as plot_anomaly_map_panel above
         panel_letter = chr(ord('a') + panel_index * n_rows + row)
-        ax.set_title(f'{panel_letter}) ' + fig_titles[exp], fontsize=20, pad=12)
+        ax.set_title(f'{panel_letter}) ' + fig_titles[exp], fontsize=18, pad=12)
 
         format_axis(ax, 'zonal', row, n_rows)
 
