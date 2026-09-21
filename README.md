@@ -92,7 +92,7 @@ Portions of this repository underwent code refactoring and documentation cleanup
 ## Contact
 
 **Sreevathsa Golla** - [sg13n23@soton.ac.uk](mailto:sg13n23@soton.ac.uk)
-Website: [www.sreevathsagolla.com](www.sreevathsagolla.com)
+Website: [www.sreevathsagolla.com](https://sreevathsagolla.com/)
 
 ## License
 
