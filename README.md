@@ -1,6 +1,6 @@
 # ENSO-WindPerturb-Thermocline
 
-## Wind-Forced Modulation of Thermocline Feedback Processes During El Niño Development
+## Wind-forced modulation of thermocline feedback processes during El Niño development
 
 This repository contains all processing and plotting code used in the associated research article.
 
@@ -32,7 +32,7 @@ utils.py
 environment.yml
 ```
 
-Except for `data/VOL_HEAT_BUDGETS` and the two `.csv` files, files in `./data` are too large to host on GitHub (check .gitignore). Contact the author if needed.
+Except for `data/VOL_HEAT_BUDGETS` and the two `.csv` files in `./data`, all the other files are too large to host on GitHub, but can be made available on request.
 
 ## Data Sources
 
@@ -49,8 +49,8 @@ Except for `data/VOL_HEAT_BUDGETS` and the two `.csv` files, files in `./data` a
 Run labels used throughout `./data` and the notebooks:
 
 * `ANWSUP` - ANomalous Westerlies (ANW) suppressed in the 2023 El Niño year
-* `ANWTRN-JRA` / `ANWTRN-HG3` - Anomalous westerlies from 2023 JRA55-do / HG3-1995 transplanted onto neutral-year (2013) winds
-* `WNDREP-HG3` / `WNDREP-HG3c` - 2013 winds globally replaced with HG3-1995 winds, without / with mean-state bias correction
+* `ANWTRN-JRA`/`ANWTRN-HG3` - Anomalous westerlies from 2023 JRA55-do/HG3-1995 transplanted onto neutral-year (2013) winds
+* `WNDREP-HG3`/`WNDREP-HG3c` - 2013 winds globally replaced with HG3-1995 winds, without/with mean-state bias correction
 * `CTRL_2013`, `CTRL_2023` - Unperturbed JRA55-do control equivalents
 * `BASELINE_NPD` (1996-2023), `BASELINE_HG3` (1976-2005) - Climatological baselines; `HG3-1995` is the single El Niño year drawn from the latter
 
