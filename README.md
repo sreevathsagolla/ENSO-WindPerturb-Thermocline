@@ -1,6 +1,6 @@
 # ENSO-WindPerturb-Thermocline
 
-## Wind-forced Modulation of Thermocline Feedback Processes During El Niño Development
+## Wind-Forced Modulation of Thermocline Feedback Processes During El Niño Development
 
 This repository contains all processing and plotting code used in the associated research article.
 
