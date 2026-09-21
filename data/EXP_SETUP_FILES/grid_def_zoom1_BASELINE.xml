@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--
+     ============================================================================================================
+= grid definition = = DO NOT CHANGE =
+============================================================================================================
+-->
+
+<grid_definition>
+  <!-- T -->
+  <grid id="gridT3D_ENSO">
+    <domain domain_ref="grid_T">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+    <axis axis_ref="deptht" />
+  </grid>
+  <grid id="gridT2D_ENSO">
+    <domain domain_ref="grid_T">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+  </grid>
+  <!-- U -->
+  <grid id="gridU3D_ENSO">
+    <domain domain_ref="grid_U">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+    <axis axis_ref="deptht" />
+  </grid>
+  <grid id="gridU2D_ENSO">
+    <domain domain_ref="grid_U">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+  </grid>
+  <!-- V -->
+  <grid id="gridV3D_ENSO">
+    <domain domain_ref="grid_V">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+    <axis axis_ref="deptht" />
+  </grid>
+  <grid id="gridV2D_ENSO">
+    <domain domain_ref="grid_V">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+  </grid>
+  <!-- W -->
+  <grid id="gridW3D_ENSO">
+    <domain domain_ref="grid_W">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+    <axis axis_ref="deptht" />
+  </grid>
+  <grid id="gridW2D_ENSO">
+    <domain domain_ref="grid_W">
+    <extract_domain ni="634" ibegin="227" nj="253" jbegin="559"/>
+    </domain>
+  </grid>
+</grid_definition>

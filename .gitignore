@@ -1,0 +1,15 @@
+# NetCDF groups
+data/NINO_BOXES/*.nc
+data/TOCE_CON/*.nc
+data/WND_FLDS/*.nc
+data/WND_FLDS/BASELINES/*.nc
+data/WND_FLDS/CLIM_CORR/*.nc
+data/Z20/*.nc
+data/domain_cfg_HG3_eORCA12.nc
+data/mesh_mask.nc
+
+# Scratch work
+scratch.ipynb
+
+# NOTE: Except for data/VOL_HEAT_BUDGETS directory and the two .csv files in data/, 
+# all the other files are too large to host on GitHub, but can be made available on request.
